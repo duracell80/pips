@@ -1,9 +1,17 @@
 # PIPS (Speaking Clock)
-A pips and speaking clock emulatorfor Python using espeak and pysyne on Linux
+A pips and speaking clock emulator for Python using espeak and pysyne on Linux
 
 https://en.wikipedia.org/wiki/Greenwich_Time_Signal
 
-Available pip signatures for pips.play():
+### How to sync a watch or clock:
+To sync an analogue time device, hold the device from ticking when the second hand reaches 12 or 0. Set the mintue hand accordingly as spoken on the :30 second time signal of the speaking clock. Wait for the :45 signal and on the long stroke set the time device to start ticking again.
+
+- :00 On the first second a long stroke signals to start of the minute
+- :15 The current minute will be announced
+- :30 The next minute will be announced
+- :45 The time signal will begin
+
+### Available pip signatures for pips.play():
 - uk, nz gts (The original pip signature)
 - Ireland (ire)
 - United States (usa)
