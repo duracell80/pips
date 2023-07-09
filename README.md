@@ -68,4 +68,8 @@ Params:
 pips.speak_clock("en", "On the long stroke the time will be", 100, False)
 ```
 
+## ToDo:
+- Allow script to run seconds ahead of actual time to account for when broadcasting digitally
+- Look at ways of cleaning up choppy audio (buffer underun)
+
 https://en.wikipedia.org/wiki/Greenwich_Time_Signal
