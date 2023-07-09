@@ -6,6 +6,11 @@ Tip: Use an NTP server to sync your computer with the correct time
 ### How to sync a watch or clock:
 To sync an analogue time device, hold the device from ticking when the second hand reaches 12 or 0. Set the mintue hand accordingly as spoken on the :30 second time signal of the speaking clock. Wait for the :45 signal and on the long stroke set the time device to start ticking again.
 
+Launch:
+```
+python3 -m pips --type=clock
+```
+
 - :00 On the first second a long stroke signals to start of the minute
 - :15 The current minute will be announced
 - :30 The next minute will be announced
