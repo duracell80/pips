@@ -3,6 +3,8 @@ A pips and speaking clock emulator for Python using espeak and pysyne on Linux
 
 https://en.wikipedia.org/wiki/Greenwich_Time_Signal
 
+Tip: Use an NTP server to sync your computer with the correct time
+
 ### How to sync a watch or clock:
 To sync an analogue time device, hold the device from ticking when the second hand reaches 12 or 0. Set the mintue hand accordingly as spoken on the :30 second time signal of the speaking clock. Wait for the :45 signal and on the long stroke set the time device to start ticking again.
 
