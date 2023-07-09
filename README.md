@@ -12,7 +12,8 @@ To sync an analogue time device, hold the device from ticking when the second ha
 - :45 The time signal will begin
 
 ### Available pip signatures for pips.play():
-- uk, nz gts (The original pip signature)
+- uk, gts (The original pip signature)
+- New Zealand (nz)
 - Ireland (ire)
 - United States (usa)
 - Japan (jap)
