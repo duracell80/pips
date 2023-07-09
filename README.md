@@ -1,7 +1,5 @@
 # PIPS (Speaking Clock)
-A pips and speaking clock emulator for Python using espeak and pysyne on Linux
-
-https://en.wikipedia.org/wiki/Greenwich_Time_Signal
+A pips and speaking clock emulator for Python using espeak and pysine on Linux
 
 Tip: Use an NTP server to sync your computer with the correct time
 
@@ -63,3 +61,5 @@ Params:
 
 pips.speak_clock("en", "On the long stroke the time will be", 100, False)
 ```
+
+https://en.wikipedia.org/wiki/Greenwich_Time_Signal
