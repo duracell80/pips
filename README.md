@@ -1,5 +1,23 @@
-# pips
-A pips and speaking clock emulator for python using espeak on Linux
+# PIPS (Speaking Clock)
+A pips and speaking clock emulatorfor Python using espeak and pysyne on Linux
+
+https://en.wikipedia.org/wiki/Greenwich_Time_Signal
+
+Available pip signatures for pips.play():
+- uk, nz gts (The original pip signature)
+- Ireland (ire)
+- United States (usa)
+- Japan (jap)
+- Australia (aus)
+- Italy (ita)
+- Germany (ger)
+- India (ind)
+- China (chi)
+- Hong Kong (hk)
+- Isreal (isr)
+- Romania (rom)
+- Slovakia (slo)
+
 
 ## Install
 ```
