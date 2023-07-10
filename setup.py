@@ -16,12 +16,5 @@ setup(
         "pyAudio>=0.2.13",
         "pysine>=0.9.2",
         "numpy>=1.23.2"
-    ],
-    classifiers= [
-	"Development Status :: 1 - RC",
-	"Intended Audience :: Hobbyist",
-	"Programming Language :: Python :: 3",
-	"Operating System :: Linux :: Raspberry OS",
-	"Operating System :: Linux :: Debian",
     ]
 )
