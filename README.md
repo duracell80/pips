@@ -43,6 +43,16 @@ $ ./install-deb.sh
 $ python3 -m pip install .
 ```
 
+## ALSA Buffer Underrun
+Sometimes the audio can be choppy and messages from ALSA complain of buffer issues, likely from how short the pips are.
+```
+$ sudo nano /etc/pulse/daemon.conf
+
+uncomment and change these lines to:
+default-fragments = 5
+default-fragment-size-msec = 8
+```
+
 ## Usage - On command line
 ```
 python3 -m pips --type=pips --lang=jap
