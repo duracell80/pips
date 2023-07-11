@@ -2,7 +2,7 @@
 # Author: Lee Jordan
 # Github: Duracell80
 
-import pips
+import speakingpips as pips
 
 def main():
 	pips.speak_clock("en", "On the long stroke the time will be", 10, False)

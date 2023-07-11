@@ -1,10 +1,10 @@
 #Script to launch pips from the command line.
-#Type python -m pips
+#Type python -m speaking-pips
 
 import argparse
 
 try:
-    from pips import *
+    from speakingpips import *
 except:
     from . import *
 
@@ -40,16 +40,16 @@ def main():
 
 
 	if str(args.type.lower()) == "pips":
-		pips.play(str(a_lang))
+		speakingpips.play(str(a_lang))
 		return
 
 	if str(args.type.lower()) == "alarm":
-		pips.alarm()
+		speakingpips.alarm()
 		return
 
 
 	if str(args.type.lower()) == "clock":
-		pips.speak_clock(str(a_lang), str(a_message), int(a_loops), False)
+		speakingpips.speak_clock(str(a_lang), str(a_message), int(a_loops), False)
 
 
 if __name__ == "__main__":

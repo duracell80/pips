@@ -8,7 +8,7 @@ To sync an analogue time device, hold the device from ticking when the second ha
 
 Launch:
 ```
-python3 -m pips --type=clock
+python3 -m speakingpips --type=clock
 ```
 
 - :00 On the first second a long stroke signals to start of the minute
@@ -55,15 +55,16 @@ default-fragment-size-msec = 8
 
 ## Usage - On command line
 ```
-python3 -m pips --type=pips --lang=jap
-python3 -m pips --type=clock
+python3 -m speakingpips --type=pips --lang=jap
+python3 -m speakingpips --type=clock
 
-python3 -m pips --type=clock --loops=10 --lang=en-sc --message="On the last stroke the time will be"
+python3 -m speakingpips --type=clock --loops=10 --lang=en-sc --message="On the last stroke the time will be"
 ```
 
 ## Usage - In scripts
 ```
-import time, pips
+import time
+import speakingpips as pips
 
 pips.play("gts") # Greenwhich Time Signal
 pips.play("jap") # Japan

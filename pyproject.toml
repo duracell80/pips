@@ -1,5 +1,5 @@
 [project]
-name = "pips"
+name = "speakingpips"
 version = "0.0.1"
 description = "Speaking Clock"
 authors = [
@@ -17,10 +17,10 @@ classifiers = [
 requires-python = ">=3.10"
 
 [project.urls]
-homepage = "https://github.com/duracell80/pips"
-documentation = "https://github.com/duracell80/pips/README.md"
-repository = "https://github.com/duracell80/pips"
-issues = "https://github.com/duracell80/pips/issues"
+homepage = "https://github.com/duracell80/speaking-pips"
+documentation = "https://github.com/duracell80/speaking-pips/README.md"
+repository = "https://github.com/duracell80/speaking-pips"
+issues = "https://github.com/duracell80/pips/speaking-issues"
 
 [build-system]
 requires = [

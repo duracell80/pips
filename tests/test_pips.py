@@ -1,1 +1,1 @@
-from pips import pips
+from speakingpips import *
